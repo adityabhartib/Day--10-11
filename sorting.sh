@@ -15,3 +15,7 @@ echo "Expression2 is: $Exp2"
 #project4
 Exp3=$((c+a/b))
 echo "Exprassion3 is: $Exp3"
+
+#project5
+Exp4=$((a%b+c))
+echo "Expression4 is: $Exp4"
