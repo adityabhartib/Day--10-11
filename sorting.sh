@@ -19,3 +19,12 @@ echo "Exprassion3 is: $Exp3"
 #project5
 Exp4=$((a%b+c))
 echo "Expression4 is: $Exp4"
+
+#project6
+declare -A data;
+data[k1]=$Exp1
+data[k2]=$Exp2
+data[k3]=$Exp3
+data[k4]=$Exp4
+
+echo "sorting Dictionary: ${data[@]}"
