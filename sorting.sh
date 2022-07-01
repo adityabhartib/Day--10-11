@@ -33,3 +33,19 @@ echo "sorting Dictionary: ${data[@]}"
 array=("$Exp1" "$Exp2" "$Exp3" "$Exp4")
 echo "Array is : ${array[@]}"
 
+#project8
+echo "Array is : ${array[@]}"
+for (( i=0;i<=4;i++  ))
+do
+	for (( j=0;j<4-i;j++  ))
+	do 
+		if [[ ${array[j]} -gt ${array[$((j+1))]} ]]
+		then
+			temp=${array[j]}
+			array[$j]=${array[$((j+1))]}
+			array[$((j+1))]=$temp
+		fi
+
+	done
+done
+echo "Assending order: ${array[@]}"
