@@ -28,3 +28,7 @@ data[k3]=$Exp3
 data[k4]=$Exp4
 
 echo "sorting Dictionary: ${data[@]}"
+
+#project7
+array=("$Exp1" "$Exp2" "$Exp3" "$Exp4")
+echo "Array is : ${array[@]}"
