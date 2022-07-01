@@ -32,3 +32,4 @@ echo "sorting Dictionary: ${data[@]}"
 #project7
 array=("$Exp1" "$Exp2" "$Exp3" "$Exp4")
 echo "Array is : ${array[@]}"
+
