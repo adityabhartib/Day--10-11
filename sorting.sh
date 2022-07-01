@@ -7,3 +7,7 @@ read -p "Enter c value: " c
 #project2
 Exp1=$((a+b*c))
 echo "Expression1 is: $Exp1"
+
+#project3
+Exp2=$((a*b+c))
+echo "expression2 is: $Exp2"
