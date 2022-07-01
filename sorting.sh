@@ -10,4 +10,8 @@ echo "Expression1 is: $Exp1"
 
 #project3
 Exp2=$((a*b+c))
-echo "expression2 is: $Exp2"
+echo "Expression2 is: $Exp2"
+
+#project4
+Exp3=$((c+a/b))
+echo "Exprassion3 is: $Exp3"
